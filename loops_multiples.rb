@@ -19,3 +19,12 @@
 
 p "Enter a number:"
 
+answer = gets.chomp.to_i
+
+answer = Array.new
+number = 1 
+
+while number <= 10
+  p answer * number
+  answer
+end 
